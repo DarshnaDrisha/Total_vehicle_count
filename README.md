@@ -29,7 +29,7 @@ pip install opencv-python numpy
 
 ### Use as Python module (for evaluation)
 ```python
-from main import Solution
+from src.solution import Solution
 
 sol = Solution()
 count = sol.forward("/path/to/input_video.mp4")
@@ -38,7 +38,7 @@ print(count)   # integer total vehicle count
 
 ### Optional: run directly for local testing
 ```bash
-python main.py /path/to/input_video.mp4
+python src/solution.py /path/to/input_video.mp4
 ```
 
 ---
