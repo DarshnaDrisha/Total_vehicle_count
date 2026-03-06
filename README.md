@@ -1,6 +1,6 @@
 # Vehicle Counting Submission
 
-This project contains a submission-ready Python implementation for **vehicle counting from a video**.
+This project contains Python implementation for **vehicle counting from a video**.
 
 The code follows the required submission format:
 - A class named **`Solution`**
